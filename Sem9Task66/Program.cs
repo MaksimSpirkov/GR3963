@@ -19,7 +19,7 @@ class Program
     // метод для вычисления суммы натуральных чисел в промежутке от m до n включительно
     static int SumOfNumbers(int m, int n)
     {
-        if (m == n) // если m и n равны, то сумма равна этому числу
+        if (m == n)
         {
             return m;
         }
